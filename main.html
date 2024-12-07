@@ -1,37 +1,96 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
 
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        #skills, #projects {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #skills h2, #projects h2 {
+            color: #4CAF50;
+        }
+
+        #skills ul, #projects ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        #skills li, #projects li {
+            margin: 10px 0;
+        }
+
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+</head>
 <body>
-	<img src="C:\Users\my\Pictures\WhatsApp-Image-2024-03-21-at-923 (2).jpg" alt="image" width="200" height="200">
-		<h1>Aayush Rohilla</h1>
-	<p>
-		<a href="https://www.linkedin.com/in/aayush-rohilla-442171326/"></a>
-	</p>
-	<div id="skills">
-		<h2>Skills</h2>
-		<ul>
-			<li>JS
-			</li>
-		</ul>
-	</div>
-	<div id="projects">
-		<h2>
-			Projects
-		</h2>
-		<ul>
-		<li>Project 1: clown of the youtube</li>
-	</ul>
-	</div>
-		<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-		
-</script>
+
+    <header>
+        <h1>John Doe</h1>
+        <img src="your-image.jpg" alt="John Doe" class="profile-image">
+        <p>
+            <a href="https://www.linkedin.com/in/johndoe" target="_blank">LinkedIn Profile</a>
+        </p>
+    </header>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>Here are some of the skills I possess:</p>
+        <ul>
+            <li>Web Development</li>
+            <li>JavaScript, HTML, CSS</li>
+            <li>React & Node.js</li>
+            <li>Database Management</li>
+            <li>Problem Solving</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Here are some of the projects I've worked on:</p>
+        <ul>
+            <li>Portfolio Website</li>
+            <li>Todo List App</li>
+            <li>Weather Forecast Web App</li>
+            <li>Chat Application</li>
+        </ul>
+    </section>
 
 </body>
-
 </html>
